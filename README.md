@@ -4,6 +4,12 @@ A quick architecture draft overview of XCP-ng trying to follow the [c4
 model](https://c4model.com/), done with drawio for simplicity. Simply aiming at
 showing C4 to the team.
 
+## Diagrams
+
+![system context diagram](C1-context-driagram.drawio.png)
+![container diagram](C2-xcp-ng-container-diagram.drawio.png)
+![component diagram](C3-xcp-ng-network-stack.drawio.png)
+
 ## References
 
 Pages, images and other documents I used as reference to get a better understanding.
