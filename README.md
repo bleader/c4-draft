@@ -1,14 +1,13 @@
 # c4-draft
 
 A quick architecture draft overview of XCP-ng trying to follow the [c4
-model](https://c4model.com/), done with drawio for simplicity. Simply aiming at
-showing C4 to the team.
+model](https://c4model.com/), done with  [structurizr lite](https://structurizr.com/share/76352/documentation). Aiming at creating a baseline architecture part to be added to the main documentation on [xcp-ng-org](https://github.com/xcp-ng/xcp-ng-org).
 
 ## Diagrams
 
-![system context diagram](C1-context-driagram.drawio.png)
-![container diagram](C2-xcp-ng-container-diagram.drawio.png)
-![component diagram](C3-xcp-ng-network-stack.drawio.png)
+![XCP-ng system context diagram](XCP-ng-SystemContext.svg)
+![XCP-ng container diagram](XCP-ng-Container.svg)
+![Network Stack component diagram](Network-Stack-Component.svg)
 
 ## References
 

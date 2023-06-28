@@ -1,0 +1,830 @@
+{
+  "id" : 1,
+  "name" : "Name",
+  "description" : "Description",
+  "lastModifiedDate" : "2023-06-28T14:59:04Z",
+  "lastModifiedAgent" : "structurizr-javascript",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlIHsKCiAgICBtb2RlbCB7CgogICAgICAgIGFkbWluID0gcGVyc29uICJBZG1pbiIgIkFuIGFkbWluaXN0cmF0b3Igb2YgaG9zdCwgcG9vbHMgYW5kIFZNcyIKCiAgICAgICAgeGNwbmcgPSBzb2Z0d2FyZVN5c3RlbSAiWENQLW5nIiAiQSBob3N0IHJ1bm5pbmcgdGhlIFhDUC1uZyBoeXBlcnZpc29yIiB7CgogICAgICAgICAgICB4ZSA9IGNvbnRhaW5lciAieGUiICJDTEkgdG8gYSBzdWJzZXQgb2YgdGhlIFhBUEkgaW50ZXJmYWNlIiAiQyIgewogICAgICAgICAgICAgICAgYWRtaW4gLT4gdGhpcyAiTWFudWFsbHkgYWRtaW5pc3RyYXRlcyBob3N0IGFuZCBndWVzdHMgdXNpbmciCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHhsID0gY29udGFpbmVyICJ4bCIgIkxvd2VyLWxldmVsIFhlbiB0b29sIGJ5cGFzc2luZyBYQVBJIiAiQyIgewogICAgICAgICAgICAgICAgYWRtaW4gLT4gdGhpcyAiTWFudWFsbHkgYWRtaW5pc3RyYXRlcyBob3N0IGFuZCBndWVzdHMgdXNpbmciCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHhhcGkgPSBjb250YWluZXIgIlhBUEkiICJDZW50cmFsaXplZCBBUEkgdG8gY29uZmlndXJlIGFuIFhDUC1uZyBob3N0IGFuZCBpdHMgVk1zIiAiT0NhbWwsIFB5dGhvbiwgQywgW+KApl0iIHsKICAgICAgICAgICAgICAgIHhlIC0+IHRoaXMgIk1ha2VzIHJlcXVlc3RzIHRvIgogICAgICAgICAgICB9CgogICAgICAgICAgICB4ZW4gPSBjb250YWluZXIgIlhlbiIgIkxvdyBsZXZlbCBtaWNyb2tlcm5lbCBoeXBlcnZpc29yIiAiQywgQVNNIiB7CiAgICAgICAgICAgICAgICB4bCAtPiB0aGlzICJNYW5hZ2VzIGFuZCBjb25maWd1cmVzIgogICAgICAgICAgICAgICAgeGFwaSAtPiB0aGlzICJDb25maWd1cmVzIgogICAgICAgICAgICB9CgogICAgICAgICAgICBuZXR3b3JrID0gY29udGFpbmVyICJOZXR3b3JrIFN0YWNrIiAiSGFuZGxlIG5ldHdvcmsgY29uZmlndXJhdGlvbiBhbmQgdHJhZmZpYyIgIkMiIHsKICAgICAgICAgICAgICAgIG92cyA9IGNvbXBvbmVudCAiT3BlbiB2U3dpdGNoIiAiTmV0d29yayBjb3JlIG9mIFhDUC1uZyIgIkMiIHsKICAgICAgICAgICAgICAgICAgICB4YXBpIC0+IHRoaXMgIkNvbmZpZ3VyZXMiCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBuZXRzdGFjayA9IGNvbXBvbmVudCAiSG9zdCBLZXJuZWwgTmV0d29yayBTdGFjayIgIktlcm5lbCBOZXR3b3JrIGhhbmRsaW5nIiAiQyIgewogICAgICAgICAgICAgICAgICAgIHhhcGkgLT4gdGhpcyAiQ29uZmlndXJlcyIKICAgICAgICAgICAgICAgICAgICBvdnMgLT4gdGhpcyAiSG9va3MgZWFybHkgaW4iCiAgICAgICAgICAgICAgICAgICAgdGhpcyAtPiBvdnMgIlNlbmRzIHBhY2tldHMgdG8iCiAgICAgICAgICAgICAgICAgICAgdGhpcyAtPiBvdnMgIlJvdXRlcyBwYWNrZXRzIHRvIHRoZSByaWdodCBwb3J0IgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgbmV0YmFjayA9IGNvbXBvbmVudCAiVklGIEJhY2tlbmQiICJWSUYgZHJpdmVyIHJ1bm5pbmcgb24gaG9zdCIgIkMiIHsKICAgICAgICAgICAgICAgICAgICB4YXBpIC0+IHRoaXMgIkNvbmZpZ3VyZXMiCiAgICAgICAgICAgICAgICAgICAgbmV0c3RhY2sgLT4gdGhpcyAiUmVjZWl2ZWRzIHBhY2tldHMgZnJvbSIKICAgICAgICAgICAgICAgICAgICB0aGlzIC0+IG5ldHN0YWNrICJTZW5kcyBwYWNrZXRzIHRvIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICBzdG9yYWdlID0gY29udGFpbmVyICJTdG9yYWdlIFN0YWNrIiAiSGFuZGxlIHN0b3JhZ2UgYW5kIGJsb2NrIGRldmljZXMiICJDLCBQeXRob24iIHsKICAgICAgICAgICAgICAgIHhhcGkgLT4gdGhpcyAiQ29uZmlndXJlcyIKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgeG8gPSBzb2Z0d2FyZVN5c3RlbSAiWGVuIE9yY2hlc3RyYSIgIldlYiBpbnRlcmZhY2UgZm9yIFhDUC1uZyBob3N0cyBhZG1pbmlzdHJhdGlvbiIgewogICAgICAgICAgICBhZG1pbiAtPiB0aGlzICJBZG1pbmlzdHJhdGVzIGFuZCBiYWNrdXBzIEhvc3RzLCBQb29scyBhbmQgVk1zIHVzaW5nIgogICAgICAgICAgICB4YXBpIC0+IHRoaXMgIlByb3ZpZGVzIGluZm9ybWF0aW9uIHRvIgogICAgICAgICAgICB0aGlzIC0+IHhhcGkgIkFkbWluaXN0cmF0ZXMgYW5kIGJhY2t1cHMgaG9zdCBhbmQgaXRzIFZNcyBvbiIKICAgICAgICB9CgogICAgICAgIHhjcG5nY2VudGVyID0gc29mdHdhcmVTeXN0ZW0gIlhDUC1uZyBDZW50ZXIiICJBIHdpbmRvd3MgYmFzZWQgYWRtaW5pc3RyYXRpb24gaW50ZXJmYWNlIiB7CiAgICAgICAgICAgIHRhZ3MgImV4dGVybmFsIgogICAgICAgICAgICBhZG1pbiAtPiB0aGlzICJBZG1pbmlzdHJhdGVzIEhvc3RzLCBQb29scyBhbmQgVk1zIHVzaW5nIgogICAgICAgICAgICB4YXBpIC0+IHRoaXMgIlByb3ZpZGVzIGluZm9ybWF0aW9uIHRvIgogICAgICAgICAgICB0aGlzIC0+IHhhcGkgIkFkbWluaXN0cmF0ZXMgaG9zdCBhbmQgaXRzIFZNcyBvbiIKICAgICAgICB9CgogICAgICAgIHZtID0gc29mdHdhcmVTeXN0ZW0gIlZNcyIgIlBWLCBIVk0sIFBWSFZNIHZpcnR1YWwgbWFjaGluZXMiIHsKICAgICAgICAgICAgdGFncyAiZXh0ZXJuYWwiCiAgICAgICAgICAgIHRoaXMgLT4geGVuICJSdW5zIG9uIHRvcCBvZiIKICAgICAgICAgICAgcHYgPSBjb250YWluZXIgIlBWIERyaXZlcnMiICJQYXJhLVZpcnR1YWxpemVkIGRyaXZlcnMgcHJvdmlkaW5nIGJldHRlciBwZXJmb3JtYW5jZXMiICJDIiB7CiAgICAgICAgICAgICAgICBuZXRmcm9udCA9IGNvbXBvbmVudCAiVklGIEZyb250ZW5kIiB7CiAgICAgICAgICAgICAgICAgICAgdGhpcyAtPiBuZXRiYWNrICJSZWNlaXZlZHMgcGFja2V0cyBmcm9tIgogICAgICAgICAgICAgICAgICAgIG5ldGJhY2sgLT4gdGhpcyAiU2VuZHMgcGFja2V0cyB0byIKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZ3Vlc3R0b29scyA9IGNvbnRhaW5lciAiR3Vlc3QtdG9vbHMiICJUb29scyBydW5uaW5nIG9uIGd1ZXN0IG1hY2hpbmVzIHRvIHByb3ZpZGUgaW5mb3JtYXRpb24gYW5kIGJldHRlciBjb250cm9sIiAiR28iIHsKICAgICAgICAgICAgICAgIHRoaXMgLT4geGFwaSAiUHJvdmlkZXMgSW5mb3JtYXRpb24gdG8iCiAgICAgICAgICAgICAgICB4YXBpIC0+IHRoaXMgIkNvbnRyb2xzIgogICAgICAgICAgICB9CiAgICAgICAgICAgIGd1ZXN0b3MgPSBjb250YWluZXIgIkd1ZXN0IE9TIiAiQW4gb3BlcmF0aW5nIHN5c3RlbSIgIkxpbnV4LCBXaW5kb3dzIiB7CiAgICAgICAgICAgICAgICB0YWdzICJleHRlcm5hbCIKICAgICAgICAgICAgICAgIHRoaXMgLT4gZ3Vlc3R0b29scyAiUHJvdmlkZXMgaW5mb3JtYXRpb24gdG8iCiAgICAgICAgICAgICAgICBndWVzdHRvb2xzIC0+IHRoaXMgIkNvbnRyb2xzIgogICAgICAgICAgICAgICAgcHYgLT4gdGhpcyAiUHJvdmlkZXMgUFYgZGV2aWNlcyB0byIKICAgICAgICAgICAgICAgIHRoaXMgLT4gcHYgIlVzZXMgdmlydHVhbCBkZXZpY2VzIHRocm91Z2giCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgdmlld3MgewogICAgICAgIHN5c3RlbUNvbnRleHQgeGNwbmcgewogICAgICAgICAgICBpbmNsdWRlICogeG8geGNwbmdjZW50ZXIKICAgICAgICB9CgogICAgICAgIGNvbnRhaW5lciB4Y3BuZyB7CiAgICAgICAgICAgIGluY2x1ZGUgZWxlbWVudC50eXBlPT1jb250YWluZXIKICAgICAgICAgICAgaW5jbHVkZSBhZG1pbgogICAgICAgICAgICBleGNsdWRlIHhjcG5nY2VudGVyCiAgICAgICAgfQoKICAgICAgICBjb21wb25lbnQgbmV0d29yayB7CiAgICAgICAgICAgIGluY2x1ZGUgZWxlbWVudC50eXBlPT1jb21wb25lbnQKICAgICAgICAgICAgaW5jbHVkZSB4YXBpIG5ldGZyb250CiAgICAgICAgfQoKICAgICAgICB0aGVtZSBkZWZhdWx0CiAgICAgICAgc3R5bGVzIHsKICAgICAgICAgICAgcmVsYXRpb25zaGlwICJSZWxhdGlvbnNoaXAiIHsKICAgICAgICAgICAgICAgIGRhc2hlZCBmYWxzZQogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgImV4dGVybmFsIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICNhYWFhYWEKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCn0K"
+  },
+  "configuration" : { },
+  "model" : {
+    "people" : [ {
+      "id" : "1",
+      "tags" : "Element,Person",
+      "properties" : {
+        "structurizr.dsl.identifier" : "admin"
+      },
+      "name" : "Admin",
+      "description" : "An administrator of host, pools and VMs",
+      "relationships" : [ {
+        "id" : "29",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "28",
+        "description" : "Administrates and backups Hosts, Pools and VMs using"
+      }, {
+        "id" : "35",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "34",
+        "description" : "Administrates Hosts, Pools and VMs using"
+      }, {
+        "id" : "4",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "3",
+        "description" : "Manually administrates host and guests using"
+      }, {
+        "id" : "7",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "6",
+        "description" : "Manually administrates host and guests using"
+      }, {
+        "id" : "5",
+        "sourceId" : "1",
+        "destinationId" : "2",
+        "description" : "Manually administrates host and guests using",
+        "linkedRelationshipId" : "4"
+      } ],
+      "location" : "Unspecified"
+    } ],
+    "softwareSystems" : [ {
+      "id" : "34",
+      "tags" : "Element,Software System,external",
+      "properties" : {
+        "structurizr.dsl.identifier" : "xcpngcenter"
+      },
+      "name" : "XCP-ng Center",
+      "description" : "A windows based administration interface",
+      "relationships" : [ {
+        "id" : "38",
+        "tags" : "Relationship",
+        "sourceId" : "34",
+        "destinationId" : "8",
+        "description" : "Administrates host and its VMs on"
+      }, {
+        "id" : "39",
+        "sourceId" : "34",
+        "destinationId" : "2",
+        "description" : "Administrates host and its VMs on",
+        "linkedRelationshipId" : "38"
+      } ],
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "2",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "xcpng"
+      },
+      "name" : "XCP-ng",
+      "description" : "A host running the XCP-ng hypervisor",
+      "relationships" : [ {
+        "id" : "37",
+        "sourceId" : "2",
+        "destinationId" : "34",
+        "description" : "Provides information to",
+        "linkedRelationshipId" : "36"
+      }, {
+        "id" : "61",
+        "sourceId" : "2",
+        "destinationId" : "40",
+        "description" : "Sends packets to",
+        "linkedRelationshipId" : "53"
+      }, {
+        "id" : "59",
+        "sourceId" : "2",
+        "destinationId" : "44",
+        "description" : "Sends packets to",
+        "linkedRelationshipId" : "53"
+      }, {
+        "id" : "31",
+        "sourceId" : "2",
+        "destinationId" : "28",
+        "description" : "Provides information to",
+        "linkedRelationshipId" : "30"
+      }, {
+        "id" : "60",
+        "sourceId" : "2",
+        "destinationId" : "43",
+        "description" : "Sends packets to",
+        "linkedRelationshipId" : "53"
+      }, {
+        "id" : "68",
+        "sourceId" : "2",
+        "destinationId" : "62",
+        "description" : "Controls",
+        "linkedRelationshipId" : "66"
+      } ],
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "26",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "storage"
+        },
+        "name" : "Storage Stack",
+        "description" : "Handle storage and block devices",
+        "technology" : "C, Python",
+        "documentation" : { }
+      }, {
+        "id" : "13",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "network"
+        },
+        "name" : "Network Stack",
+        "description" : "Handle network configuration and traffic",
+        "relationships" : [ {
+          "id" : "58",
+          "sourceId" : "13",
+          "destinationId" : "40",
+          "description" : "Sends packets to",
+          "linkedRelationshipId" : "53"
+        }, {
+          "id" : "57",
+          "sourceId" : "13",
+          "destinationId" : "43",
+          "description" : "Sends packets to",
+          "linkedRelationshipId" : "53"
+        }, {
+          "id" : "56",
+          "sourceId" : "13",
+          "destinationId" : "44",
+          "description" : "Sends packets to",
+          "linkedRelationshipId" : "53"
+        } ],
+        "technology" : "C",
+        "components" : [ {
+          "id" : "22",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "netback"
+          },
+          "name" : "VIF Backend",
+          "description" : "VIF driver running on host",
+          "relationships" : [ {
+            "id" : "55",
+            "sourceId" : "22",
+            "destinationId" : "40",
+            "description" : "Sends packets to",
+            "linkedRelationshipId" : "53"
+          }, {
+            "id" : "53",
+            "tags" : "Relationship",
+            "sourceId" : "22",
+            "destinationId" : "44",
+            "description" : "Sends packets to"
+          }, {
+            "id" : "54",
+            "sourceId" : "22",
+            "destinationId" : "43",
+            "description" : "Sends packets to",
+            "linkedRelationshipId" : "53"
+          }, {
+            "id" : "25",
+            "tags" : "Relationship",
+            "sourceId" : "22",
+            "destinationId" : "17",
+            "description" : "Sends packets to"
+          } ],
+          "technology" : "C",
+          "documentation" : { }
+        }, {
+          "id" : "17",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "netstack"
+          },
+          "name" : "Host Kernel Network Stack",
+          "description" : "Kernel Network handling",
+          "relationships" : [ {
+            "id" : "20",
+            "tags" : "Relationship",
+            "sourceId" : "17",
+            "destinationId" : "14",
+            "description" : "Sends packets to"
+          }, {
+            "id" : "21",
+            "tags" : "Relationship",
+            "sourceId" : "17",
+            "destinationId" : "14",
+            "description" : "Routes packets to the right port"
+          }, {
+            "id" : "24",
+            "tags" : "Relationship",
+            "sourceId" : "17",
+            "destinationId" : "22",
+            "description" : "Receiveds packets from"
+          } ],
+          "technology" : "C",
+          "documentation" : { }
+        }, {
+          "id" : "14",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "ovs"
+          },
+          "name" : "Open vSwitch",
+          "description" : "Network core of XCP-ng",
+          "relationships" : [ {
+            "id" : "19",
+            "tags" : "Relationship",
+            "sourceId" : "14",
+            "destinationId" : "17",
+            "description" : "Hooks early in"
+          } ],
+          "technology" : "C",
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "10",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "xen"
+        },
+        "name" : "Xen",
+        "description" : "Low level microkernel hypervisor",
+        "technology" : "C, ASM",
+        "documentation" : { }
+      }, {
+        "id" : "8",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "xapi"
+        },
+        "name" : "XAPI",
+        "description" : "Centralized API to configure an XCP-ng host and its VMs",
+        "relationships" : [ {
+          "id" : "67",
+          "sourceId" : "8",
+          "destinationId" : "40",
+          "description" : "Controls",
+          "linkedRelationshipId" : "66"
+        }, {
+          "id" : "27",
+          "tags" : "Relationship",
+          "sourceId" : "8",
+          "destinationId" : "26",
+          "description" : "Configures"
+        }, {
+          "id" : "36",
+          "tags" : "Relationship",
+          "sourceId" : "8",
+          "destinationId" : "34",
+          "description" : "Provides information to"
+        }, {
+          "id" : "23",
+          "tags" : "Relationship",
+          "sourceId" : "8",
+          "destinationId" : "22",
+          "description" : "Configures"
+        }, {
+          "id" : "66",
+          "tags" : "Relationship",
+          "sourceId" : "8",
+          "destinationId" : "62",
+          "description" : "Controls"
+        }, {
+          "id" : "12",
+          "tags" : "Relationship",
+          "sourceId" : "8",
+          "destinationId" : "10",
+          "description" : "Configures"
+        }, {
+          "id" : "18",
+          "tags" : "Relationship",
+          "sourceId" : "8",
+          "destinationId" : "17",
+          "description" : "Configures"
+        }, {
+          "id" : "30",
+          "tags" : "Relationship",
+          "sourceId" : "8",
+          "destinationId" : "28",
+          "description" : "Provides information to"
+        }, {
+          "id" : "16",
+          "sourceId" : "8",
+          "destinationId" : "13",
+          "description" : "Configures",
+          "linkedRelationshipId" : "15"
+        }, {
+          "id" : "15",
+          "tags" : "Relationship",
+          "sourceId" : "8",
+          "destinationId" : "14",
+          "description" : "Configures"
+        } ],
+        "technology" : "OCaml, Python, C, […]",
+        "documentation" : { }
+      }, {
+        "id" : "6",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "xl"
+        },
+        "name" : "xl",
+        "description" : "Lower-level Xen tool bypassing XAPI",
+        "relationships" : [ {
+          "id" : "11",
+          "tags" : "Relationship",
+          "sourceId" : "6",
+          "destinationId" : "10",
+          "description" : "Manages and configures"
+        } ],
+        "technology" : "C",
+        "documentation" : { }
+      }, {
+        "id" : "3",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "xe"
+        },
+        "name" : "xe",
+        "description" : "CLI to a subset of the XAPI interface",
+        "relationships" : [ {
+          "id" : "9",
+          "tags" : "Relationship",
+          "sourceId" : "3",
+          "destinationId" : "8",
+          "description" : "Makes requests to"
+        } ],
+        "technology" : "C",
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "28",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "xo"
+      },
+      "name" : "Xen Orchestra",
+      "description" : "Web interface for XCP-ng hosts administration",
+      "relationships" : [ {
+        "id" : "33",
+        "sourceId" : "28",
+        "destinationId" : "2",
+        "description" : "Administrates and backups host and its VMs on",
+        "linkedRelationshipId" : "32"
+      }, {
+        "id" : "32",
+        "tags" : "Relationship",
+        "sourceId" : "28",
+        "destinationId" : "8",
+        "description" : "Administrates and backups host and its VMs on"
+      } ],
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "40",
+      "tags" : "Element,Software System,external",
+      "properties" : {
+        "structurizr.dsl.identifier" : "vm"
+      },
+      "name" : "VMs",
+      "description" : "PV, HVM, PVHVM virtual machines",
+      "relationships" : [ {
+        "id" : "52",
+        "sourceId" : "40",
+        "destinationId" : "13",
+        "description" : "Receiveds packets from",
+        "linkedRelationshipId" : "45"
+      }, {
+        "id" : "65",
+        "sourceId" : "40",
+        "destinationId" : "8",
+        "description" : "Provides Information to",
+        "linkedRelationshipId" : "63"
+      }, {
+        "id" : "41",
+        "tags" : "Relationship",
+        "sourceId" : "40",
+        "destinationId" : "10",
+        "description" : "Runs on top of"
+      }, {
+        "id" : "42",
+        "sourceId" : "40",
+        "destinationId" : "2",
+        "description" : "Runs on top of",
+        "linkedRelationshipId" : "41"
+      }, {
+        "id" : "51",
+        "sourceId" : "40",
+        "destinationId" : "22",
+        "description" : "Receiveds packets from",
+        "linkedRelationshipId" : "45"
+      } ],
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "62",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "guesttools"
+        },
+        "name" : "Guest-tools",
+        "description" : "Tools running on guest machines to provide information and better control",
+        "relationships" : [ {
+          "id" : "71",
+          "tags" : "Relationship",
+          "sourceId" : "62",
+          "destinationId" : "69",
+          "description" : "Controls"
+        }, {
+          "id" : "64",
+          "sourceId" : "62",
+          "destinationId" : "2",
+          "description" : "Provides Information to",
+          "linkedRelationshipId" : "63"
+        }, {
+          "id" : "63",
+          "tags" : "Relationship",
+          "sourceId" : "62",
+          "destinationId" : "8",
+          "description" : "Provides Information to"
+        } ],
+        "technology" : "Go",
+        "documentation" : { }
+      }, {
+        "id" : "43",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "pv"
+        },
+        "name" : "PV Drivers",
+        "description" : "Para-Virtualized drivers providing better performances",
+        "relationships" : [ {
+          "id" : "49",
+          "sourceId" : "43",
+          "destinationId" : "13",
+          "description" : "Receiveds packets from",
+          "linkedRelationshipId" : "45"
+        }, {
+          "id" : "48",
+          "sourceId" : "43",
+          "destinationId" : "22",
+          "description" : "Receiveds packets from",
+          "linkedRelationshipId" : "45"
+        }, {
+          "id" : "50",
+          "sourceId" : "43",
+          "destinationId" : "2",
+          "description" : "Receiveds packets from",
+          "linkedRelationshipId" : "45"
+        }, {
+          "id" : "72",
+          "tags" : "Relationship",
+          "sourceId" : "43",
+          "destinationId" : "69",
+          "description" : "Provides PV devices to"
+        } ],
+        "technology" : "C",
+        "components" : [ {
+          "id" : "44",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "netfront"
+          },
+          "name" : "VIF Frontend",
+          "relationships" : [ {
+            "id" : "45",
+            "tags" : "Relationship",
+            "sourceId" : "44",
+            "destinationId" : "22",
+            "description" : "Receiveds packets from"
+          }, {
+            "id" : "47",
+            "sourceId" : "44",
+            "destinationId" : "2",
+            "description" : "Receiveds packets from",
+            "linkedRelationshipId" : "45"
+          }, {
+            "id" : "46",
+            "sourceId" : "44",
+            "destinationId" : "13",
+            "description" : "Receiveds packets from",
+            "linkedRelationshipId" : "45"
+          } ],
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "69",
+        "tags" : "Element,Container,external",
+        "properties" : {
+          "structurizr.dsl.identifier" : "guestos"
+        },
+        "name" : "Guest OS",
+        "description" : "An operating system",
+        "relationships" : [ {
+          "id" : "73",
+          "tags" : "Relationship",
+          "sourceId" : "69",
+          "destinationId" : "43",
+          "description" : "Uses virtual devices through"
+        }, {
+          "id" : "70",
+          "tags" : "Relationship",
+          "sourceId" : "69",
+          "destinationId" : "62",
+          "description" : "Provides information to"
+        } ],
+        "technology" : "Linux, Windows",
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    } ]
+  },
+  "documentation" : { },
+  "views" : {
+    "systemContextViews" : [ {
+      "key" : "SystemContext-001",
+      "order" : 1,
+      "softwareSystemId" : "2",
+      "dimensions" : {
+        "width" : 2115,
+        "height" : 1581
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 856,
+        "y" : 50
+      }, {
+        "id" : "34",
+        "x" : 1614,
+        "y" : 760
+      }, {
+        "id" : "2",
+        "x" : 831,
+        "y" : 760
+      }, {
+        "id" : "28",
+        "x" : 49,
+        "y" : 760
+      }, {
+        "id" : "40",
+        "x" : 831,
+        "y" : 1231
+      } ],
+      "relationships" : [ {
+        "id" : "29"
+      }, {
+        "id" : "61",
+        "vertices" : [ {
+          "x" : 1185,
+          "y" : 1151
+        } ]
+      }, {
+        "id" : "37",
+        "vertices" : [ {
+          "x" : 1434,
+          "y" : 795
+        } ]
+      }, {
+        "id" : "5"
+      }, {
+        "id" : "35"
+      }, {
+        "id" : "42",
+        "vertices" : [ {
+          "x" : 930,
+          "y" : 1151
+        } ]
+      }, {
+        "id" : "33",
+        "vertices" : [ {
+          "x" : 679,
+          "y" : 985
+        } ]
+      }, {
+        "id" : "31",
+        "vertices" : [ {
+          "x" : 674,
+          "y" : 825
+        } ]
+      }, {
+        "id" : "39",
+        "vertices" : [ {
+          "x" : 1479,
+          "y" : 1000
+        } ]
+      } ]
+    } ],
+    "containerViews" : [ {
+      "key" : "Container-001",
+      "order" : 2,
+      "softwareSystemId" : "2",
+      "dimensions" : {
+        "width" : 2190,
+        "height" : 2621
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 903,
+        "y" : 97
+      }, {
+        "id" : "13",
+        "x" : 1627,
+        "y" : 1522
+      }, {
+        "id" : "69",
+        "x" : 877,
+        "y" : 2132
+      }, {
+        "id" : "3",
+        "x" : 877,
+        "y" : 707
+      }, {
+        "id" : "26",
+        "x" : 877,
+        "y" : 1617
+      }, {
+        "id" : "6",
+        "x" : 112,
+        "y" : 707
+      }, {
+        "id" : "8",
+        "x" : 877,
+        "y" : 1164
+      }, {
+        "id" : "62",
+        "x" : 127,
+        "y" : 2132
+      }, {
+        "id" : "43",
+        "x" : 1627,
+        "y" : 2132
+      }, {
+        "id" : "10",
+        "x" : 112,
+        "y" : 1522
+      } ],
+      "relationships" : [ {
+        "id" : "70",
+        "vertices" : [ {
+          "x" : 727,
+          "y" : 2132
+        } ]
+      }, {
+        "id" : "72",
+        "vertices" : [ {
+          "x" : 1482,
+          "y" : 2387
+        } ]
+      }, {
+        "id" : "71",
+        "vertices" : [ {
+          "x" : 727,
+          "y" : 2432
+        } ]
+      }, {
+        "id" : "63",
+        "vertices" : [ {
+          "x" : 737,
+          "y" : 1807
+        } ]
+      }, {
+        "id" : "73",
+        "vertices" : [ {
+          "x" : 1487,
+          "y" : 2222
+        } ]
+      }, {
+        "id" : "16"
+      }, {
+        "id" : "27"
+      }, {
+        "id" : "4"
+      }, {
+        "id" : "11"
+      }, {
+        "id" : "12"
+      }, {
+        "id" : "7"
+      }, {
+        "id" : "66",
+        "vertices" : [ {
+          "x" : 657,
+          "y" : 1727
+        } ]
+      }, {
+        "id" : "9"
+      }, {
+        "id" : "57",
+        "vertices" : [ {
+          "x" : 1972,
+          "y" : 1962
+        } ]
+      }, {
+        "id" : "49",
+        "vertices" : [ {
+          "x" : 1767,
+          "y" : 1972
+        } ]
+      } ]
+    } ],
+    "componentViews" : [ {
+      "key" : "Component-001",
+      "order" : 3,
+      "dimensions" : {
+        "width" : 2090,
+        "height" : 1486
+      },
+      "containerId" : "13",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "22",
+        "x" : 1569,
+        "y" : 498
+      }, {
+        "id" : "44",
+        "x" : 1569,
+        "y" : 1044
+      }, {
+        "id" : "14",
+        "x" : 69,
+        "y" : 498
+      }, {
+        "id" : "17",
+        "x" : 819,
+        "y" : 498
+      }, {
+        "id" : "8",
+        "x" : 819,
+        "y" : 49
+      } ],
+      "relationships" : [ {
+        "id" : "18"
+      }, {
+        "id" : "15"
+      }, {
+        "id" : "25",
+        "vertices" : [ {
+          "x" : 1419,
+          "y" : 498
+        } ]
+      }, {
+        "id" : "24",
+        "vertices" : [ {
+          "x" : 1419,
+          "y" : 798
+        } ]
+      }, {
+        "id" : "53",
+        "vertices" : [ {
+          "x" : 1620,
+          "y" : 914
+        } ]
+      }, {
+        "id" : "23"
+      }, {
+        "id" : "21",
+        "vertices" : [ {
+          "x" : 669,
+          "y" : 648
+        } ]
+      }, {
+        "id" : "20",
+        "vertices" : [ {
+          "x" : 669,
+          "y" : 798
+        } ]
+      }, {
+        "id" : "45",
+        "vertices" : [ {
+          "x" : 1945,
+          "y" : 919
+        } ]
+      }, {
+        "id" : "19",
+        "vertices" : [ {
+          "x" : 669,
+          "y" : 498
+        } ]
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "external",
+          "background" : "#aaaaaa"
+        } ],
+        "relationships" : [ {
+          "tag" : "Relationship",
+          "dashed" : false
+        } ]
+      },
+      "themes" : [ "https://static.structurizr.com/themes/default/theme.json" ],
+      "terminology" : { },
+      "metadataSymbols" : "SquareBrackets",
+      "lastSavedView" : "Component-001"
+    }
+  }
+}
