@@ -16,6 +16,7 @@ workspace {
 
             xapi = container "XAPI" "Centralized API to configure an XCP-ng host and its VMs" "OCaml, Python, C, […]" {
                 xe -> this "Makes requests to"
+                this -> xl "Configures xen using"
             }
 
             xen = container "Xen" "Low level microkernel hypervisor" "C, ASM" {
@@ -62,6 +63,8 @@ workspace {
             tags "external"
             this -> xen "Runs on top of"
             pv = container "PV Drivers" "Para-Virtualized drivers providing better performances" "C" {
+                xapi -> this "Configures"
+                storage -> this "Provides storage to"
                 netfront = component "VIF Frontend" {
                     this -> netback "Receiveds packets from"
                     netback -> this "Sends packets to"
@@ -75,9 +78,9 @@ workspace {
             guestos = container "Guest OS" "An operating system" "Linux, Windows" {
                 tags "external"
                 this -> guesttools "Provides information to"
-                guesttools -> this "Controls"
                 pv -> this "Provides PV devices to"
                 this -> pv "Uses virtual devices through"
+                this -> xen "Controls"
             }
         }
     }
