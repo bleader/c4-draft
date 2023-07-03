@@ -13,6 +13,8 @@ model](https://c4model.com/), done with  [structurizr lite](https://structurizr.
 
 Pages, images and other documents I used as reference to get a better understanding.
 
+- [Structurizr DSL cookbook](https://github.com/structurizr/dsl/tree/master/docs/cookbook)
+- [Structurizr DSL language reference](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md)
 - [XCP-ng Architecture doc](https://xcp-ng.org/docs/architecture.html)
 - [xenopsd-ng's README](https://github.com/xcp-ng/xenopsd-ng)
 - [xapi Reference](https://xapi-project.github.io/xen-api/)
